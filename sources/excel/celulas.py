@@ -17,11 +17,19 @@ meu_dic = {'A2': ws['A2'].value, 'B2': ws['B2'].value,
            'A13': ws['A13'].value, 'B13': ws['B13'].value,
            'A14': ws['A14'].value, 'B14': ws['B14'].value,
            'A15': ws['A15'].value, 'B15': ws['B15'].value,
-           'A16': ws['A16'].value, 'B16': ws['B16'].value
+           'A16': ws['A16'].value, 'B16': ws['B16'].value,
+           'A17': ws['A17'].value, 'B17': ws['B17'].value,
+           'A18': ws['A18'].value, 'B18': ws['B18'].value,
+           'A19': ws['A19'].value, 'B19': ws['B19'].value,
+           'A20': ws['A20'].value, 'B20': ws['B20'].value,
+           'A21': ws['A21'].value, 'B21': ws['B21'].value,
+           'A22': ws['A22'].value, 'B22': ws['B22'].value,
+           'A23': ws['A23'].value, 'B23': ws['B23'].value,
+           'A24': ws['A24'].value, 'B24': ws['B24'].value,
            }
 
 cont = 2
-while cont < 12:
+while cont < 19:
     print(meu_dic[f'A{cont}'])
     print(meu_dic[f'B{cont}'])
     cont +=1   
