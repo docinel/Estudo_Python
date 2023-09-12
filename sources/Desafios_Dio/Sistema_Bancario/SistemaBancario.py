@@ -4,7 +4,7 @@
     # Extrato
 
 limite = 500
-deposito = 0
+deposito = []
 saldo = deposito
 saque = 0
 numero_saque = 0
@@ -22,7 +22,7 @@ menu = '''
 while True:
     opcao = input(menu)
     if opcao == 'd':
-        deposito = int(input('Quanto você gostaria de depositar? '))
+        deposito.append()
         
     if opcao == 's':
         print(f'R${saldo}')
