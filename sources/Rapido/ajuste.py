@@ -2,15 +2,20 @@ import pyautogui as pa
 
 pa.sleep(5)
 inicio = 0
-while inicio < 12:
+while inicio < 91:
     pa.press('F2')
-    pa.press('left', presses=3, interval=0.2)
     pa.press('backspace')
-    pa.typewrite('2')
+    pa.hotkey('ctrl', 'left')
+    pa.press('del')
+    pa.press('backspace', presses=50)
+    pa.press('enter')
+    # pa.press('left', presses=3, interval=0.2)
+    # pa.press('backspace')
+    # pa.typewrite('2')
     # pa.hotkey('ctrl', 'left')
     # pa.sleep(0.5)
     # pa.press('backspace')
-    pa.press('enter')
+    # pa.press('enter')
 #     # *******************************************************************************
 #     # pa.press('F2')
 #     # pa.press('left', presses=9, interval=0.2)
