@@ -1,13 +1,15 @@
 import pyautogui as pa
 import timeit
 import openpyxl as xl
-  
+
+
 start_time = timeit.default_timer()
 
 wb = xl.load_workbook(r'Z:\011-TI\017-BI_TESTES\BI_BASE_RELATORIOS\IMPL_SALDO.xlsx')
 ws = wb['IMPL_SALDO']
 
-qtd = int(pa.prompt(text='Digite a quantidade de Implantações:', title='QTD LINHAS' , default=''))
+qtd = int(pa.prompt(text='Digite a quantidade de Implantações:',
+                    title='QTD LINHAS', default=''))
 #  ABRE O MENTOR
 pa.hotkey('win', 'd')
 pa.sleep(1)
