@@ -2,7 +2,7 @@ import pyautogui as pa
 import timeit
 import openpyxl as xl
 
-pa.FAILSAFE = False
+pa.FAILSAFE = True
 
 start_time = timeit.default_timer()
 
