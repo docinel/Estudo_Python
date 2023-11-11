@@ -5,8 +5,6 @@ from pathlib import Path
 
 start_time = timeit.default_timer()
 
-caminho_arquivo = Path.home() / 'Documents' / 'Sources_Imagens'
-
 pa.hotkey('win', 'd')
 pa.sleep(1)
 
@@ -15,7 +13,7 @@ pa.sleep(1)
 pa.typewrite(r"Z:\011-TI\017-BI_TESTES\BI_BASE_RELATORIOS\BASE.xlsm")
 pa.sleep(1)
 pa.press('enter')
-pa.sleep(20)
+pa.sleep(30)
 
 pa.hotkey('ctrl', 'h')
 pa.sleep(2)
@@ -29,8 +27,7 @@ pa.sleep(60)
 pa.hotkey('win', 'd')
 pa.sleep(1)
 
-excel = pa.locateCenterOnScreen(caminho_arquivo / 'excel.png', confidence=0.9)
-# excel = pa.locateCenterOnScreen("C:\\Users\\narobo\\Documents\\Estudo_Python\\sources\\excel_2\\excel.png", confidence=0.9)
+excel = pa.locateCenterOnScreen("C:\\Users\\rodrigo.docinel\\Documents\\Sources_Imagens\\excel.png", confidence=0.9)
 pa.sleep(1)
 pa.click(excel)
 pa.sleep(1)
@@ -43,15 +40,13 @@ pa.sleep(3)
 pa.press('n')
 pa.sleep(5)
 try:
-    google_2 = pa.locateCenterOnScreen(caminho_arquivo / 'google_2.png', confidence=0.9)
-    # google_2 = pa.locateCenterOnScreen("C:\\Users\\narobo\\Documents\\Estudo_Python\\sources\\excel_2\\google_2.png", confidence=0.9)
+    google_2 = pa.locateCenterOnScreen("C:\\Users\\rodrigo.docinel\\Documents\\Sources_Imagens\\google_2.png", confidence=0.9)
     pa.sleep(2)
     pa.click(google_2)
     pa.sleep(3)
     pa.hotkey('ctrl', 'w')
 except Exception:
-    google = pa.locateCenterOnScreen(caminho_arquivo / 'google.png', confidence=0.9)
-    # google = pa.locateCenterOnScreen("C:\\Users\\narobo\\Documents\\Estudo_Python\\sources\\excel_2\\google.png", confidence=0.9)
+    google = pa.locateCenterOnScreen("C:\\Users\\rodrigo.docinel\\Documents\\Sources_Imagens\\google.png", confidence=0.9)
     pa.sleep(2)
     pa.click(google)
     pa.sleep(3)
