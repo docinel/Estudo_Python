@@ -28,7 +28,7 @@ for cont in range(2, qtd):
 for cont in range(2, qtd):
     pa.click(172, 198)
     pa.sleep(1)
-    pa.write(str(meu_dic[f'A{cont}']))
+    pa.write(str(meu_dic[f'A{cont}']), interval=0.3)
     pa.press('tab')
     pa.sleep(5)
     pa.write(str(meu_dic[f'B{cont}']))
