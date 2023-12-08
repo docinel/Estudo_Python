@@ -1,14 +1,14 @@
 import pyautogui as pa
 
+pa.FAILSAFE = True
 
 pa.sleep(5)
-pa.press('enter', presses=5, interval=0.2)
+# pa.press('enter', presses=5, interval=0.2)
 inicio = 0
-while inicio < 10:
-    seq = 467
+while inicio < 18:
+    seq = 31
     pa.press('F2')
-    pa.press('backspace', presses=3, interval=0.2)
-    inicio += 1
+    pa.press('backspace', presses=2, interval=0.2)
     num = seq + inicio
     pa.typewrite(f'{num}')
     pa.press('enter')
@@ -32,6 +32,6 @@ while inicio < 10:
 # for num in range(1, 6):
 #     pa.press('F2')
 #     pa.press('backspace', presses=2, interval=0.2)
-#     seq = 88
-#     pa.write({seq}+ 1)
-
+#     seq = 19
+#     pa.write({seq} + 1)
+#     pa.press('enter')
