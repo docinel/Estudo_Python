@@ -4,7 +4,7 @@ import pyautogui as pa
 pa.FAILSAFE = True
 
 pa.sleep(5)
-
+pa.hotkey('win', 'd')
 # Pega a posição do mouse
 print(pa.position())
 # Pega o tamanho da tela
