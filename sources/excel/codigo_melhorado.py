@@ -12,8 +12,4 @@ for cont in range(2, 11):
     print(meu_dic[f'A{cont}'])
     print(meu_dic[f'B{cont}'])
 
-
-
-
-
-
+wb.close()

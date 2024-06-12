@@ -14,6 +14,7 @@ PIS/COFINS	                    10,95 	3,65%
 IR/CSSL	                        9,18 	3,06%
 SIMPLES	                        -   	0,00%
 ANTECIPAÇÃO BOL. (30/60/90)	    -   	0,00%
+ANTECIPAÇÃO CARTÃO. (30/60/90)    -   	0,00%
 TOTAL DESPESAS VARIÁVEIS	 235,94     78,65%
 		
 MARGEM CONTRIBUIÇÃO	            64,06 	21,35%'''
