@@ -7,7 +7,7 @@
         
         {
             "name": "Python: Arquivo Atual",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",

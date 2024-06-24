@@ -19,7 +19,7 @@ pa.getWindowsWithTitle('Touch Comp ERP')[0].maximize()
 # NOVO ITEM
 pa.click(173, 192)
 meu_dic = {}
-pa.sleep(3)
+# pa.sleep(3)
 for cont in range(2, qtd):
     meu_dic[f'A{cont}'] = ws[f'A{cont}'].value
     meu_dic[f'B{cont}'] = ws[f'B{cont}'].value
@@ -31,10 +31,10 @@ for cont in range(2, qtd):
     pa.write(str(meu_dic[f'A{cont}']), interval=0.3)
     pa.press('tab')
     pa.sleep(5)
-    pa.write(str(meu_dic[f'B{cont}']))
+    pa.write(str(meu_dic[f'B{cont}']), interval=0.2)
     pa.press('enter')
     pa.sleep(1.5)
-    pa.write(str(meu_dic[f'C{cont}']))
+    pa.write(str(meu_dic[f'C{cont}']), interval=0.2)
     pa.sleep(1.5)
     pa.press('enter', presses=4, interval=0.3)
 
